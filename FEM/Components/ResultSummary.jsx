@@ -39,12 +39,12 @@ export const ResultSummary = () => {
                 </div>
                 {/* Left-side-above */}
                 {/* right-side-below */}
-                <div className="lg:h-full   h-[55vh]  lg:w-[55%]  w-full  p-4 bg-transparent flex flex-col">
+                <div className="lg:h-full   h-[55vh]  lg:w-[55%]  w-full  p-4 bg-transparent flex flex-col  xl:h-full   ">
                     <p className="w-full    text-[18px] font-bold   text-black  md:text-xl">
                         Summary
                     </p>
                    
-                    <div className="w-full  p-1 h-[70%] md:h-[60%] my-3  flex  flex-col    gap-2   justify-evenly">
+                    <div className="w-full  p-1 h-[80%] md:h-[60%] my-3  flex  flex-col    gap-2   justify-evenly">
                     {
                       data.map((datum,index)=>{
                         
@@ -65,7 +65,7 @@ export const ResultSummary = () => {
 
                     </div>
 
-                    <div className="w-full  h-16">
+                    <div className="w-full  h-full  flex    items-center">
                         <button className='bg-Dark-gray-blue    w-full  h-12    rounded-full text-custom-White   flex    items-center justify-center transition-all  hover:cursor-pointer    hover:bg-gradient-to-t  from-Light-royal-blue   to-Light-slate-blue    hover:font-semibold ease-in-out outline-none'>Continue</button>
                     </div>
 
