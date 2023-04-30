@@ -44,8 +44,9 @@ export const ResultSummary = () => {
                         Summary
                     </p>
                    
-                    <div className="w-full  p-1 h-[80%] md:h-[60%] my-3  flex  flex-col    gap-2   justify-evenly">
-                    {
+                    <div className="w-full  p-1 h-[80%] md:h-[60%] my-3  flex  flex-col    gap-4   justify-evenly">
+                        <div className="w-full  h-full  flex    flex-col   gap-4   justify-evenly">
+                        {
                       data.map((datum,index)=>{
                         
                         return   <div className={`w-full  h-12 flex   justify-between p-2   ${resolveColor(index)}  rounded-md  items-center` }    key={index}>
@@ -62,6 +63,8 @@ export const ResultSummary = () => {
                         </div>
                       })  
                     }
+                        </div>
+                    
 
                     </div>
 
