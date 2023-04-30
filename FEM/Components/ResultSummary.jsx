@@ -15,13 +15,13 @@ export const ResultSummary = () => {
   return (
     <div   className='w-full    h-screen  overflow-hidden   font-Hanken'>
         <div className="w-full  h-full    flex  justify-center  items-center  ">
-            <div className="xl:w-[40vw] lg:w-[60vw] lg:h-[70vh]  xl:h-[55vh]  md:w-[80vw]  md:h-[50vh]  w-full   h-screen    overflow-hidden bg-custom-White   lg:rounded-2xl shadow-2xl   shadow-Pale-blue    flex lg:flex-row flex-col md:flex-row">
+            <div className="xl:w-[46vw] lg:w-[60vw] lg:h-[60vh]  xl:h-[48vh]  md:w-[80vw]  md:h-[50vh]  w-full   h-screen    overflow-hidden bg-custom-White   lg:rounded-2xl shadow-2xl   shadow-Pale-blue    flex lg:flex-row flex-col md:flex-row">
                 <div className="lg:h-full   h-[45vh]  lg:w-[45%] md:h-full  md:rounded-3xl w-full bg-gradient-to-t  from-Light-royal-blue from-10% to-Light-slate-blue p-4 flex    flex-col    justify-between lg:rounded-3xl  rounded-b-[30px]">
                     <p className="w-full    h-auto  text-center text-custom-White  text-opacity-70  text">
                         Your Result
                     </p>
 
-                    <div className="xl:w-[75%] mx-auto  xl:my-0 my-2    w-40   p-4  h-40  lg:w-44   lg:h-44   xl:h-[45%] bg-gradient-to-b   from-Violet-blue    from-30%   to-Persian-blue/5  rounded-full  flex flex-col   justify-center  items-center gap-3">
+                    <div className="xl:w-40 mx-auto  xl:my-0 my-2    w-40   p-4  h-40  lg:w-44   lg:h-48   xl:h-40 bg-gradient-to-b   from-Violet-blue    from-30%   to-Persian-blue/5  rounded-full  flex flex-col   justify-center  items-center gap-3">
                         <p className="h-auto text-custom-White font-bold    text-6xl">
                             76
                         </p>
