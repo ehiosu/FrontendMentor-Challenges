@@ -13,7 +13,7 @@ export const ResultSummary = () => {
     }
    
   return (
-    <div   className='w-full    h-screen  overflow-hidden'>
+    <div   className='w-full    h-screen  overflow-hidden   font-Hanken'>
         <div className="w-full  h-full    flex  justify-center  items-center  ">
             <div className="xl:w-[40vw] lg:w-[60vw] lg:h-[70vh]  xl:h-[55vh]  md:w-[80vw]  md:h-[50vh]  w-full   h-screen    overflow-hidden bg-custom-White   lg:rounded-2xl shadow-2xl   shadow-Pale-blue    flex lg:flex-row flex-col md:flex-row">
                 <div className="lg:h-full   h-[45vh]  lg:w-[45%] md:h-full  md:rounded-3xl w-full bg-gradient-to-t  from-Light-royal-blue from-10% to-Light-slate-blue p-4 flex    flex-col    justify-between lg:rounded-3xl  rounded-b-[30px]">
@@ -29,7 +29,7 @@ export const ResultSummary = () => {
                     </div>
 
                     <div className="w-full  h-auto  text-center mb-4">
-                        <p className="w-full  h-auto text-[18px] font-semibold text-custom-White    text-center">
+                        <p className="w-full  h-auto text-xl font-semibold text-custom-White    text-center">
                             Great
                         </p>
                         <p className='h-auto max-w-[28ch] text-sm text-custom-White/70  text-center mx-auto p-2 text-[18px]'>
